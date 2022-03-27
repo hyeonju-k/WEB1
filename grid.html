@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+    <style>
+    #grid{
+      border: 5px pink solid;
+      display : grid;   /* grid 만 쓰고 grid-template-columns 안 쓰면 변화없음 */
+      grid-template-columns: 150px 1fr;   /* 첫 번째 컬럼은 150px 부피를 갖고 두 번째 컬럼은 나머지 공간을 다 쓴다 */
+    }
+    div{
+      border: gray 5px solid;
+    }
+    </style>
+  </head>
+  <body>
+  <div id="grid">
+  <div>NAVIGATION</div>
+  <div>의미 없는 텍스트</div>
+  </div>
+  </body>
+</html>
+<!--
+div : 블록 레벨 엘리먼트
+span : 인라인 엘리먼트
+-->
